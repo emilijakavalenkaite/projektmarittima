@@ -142,6 +142,31 @@ height: 100%;
 	color: white;
 }
 
+.tilmedtekst{
+	color: white;
+}
+
+.emailtekst {
+	color: white;
+}
+.button2{
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px;
+	background: #fff;
+	text-align: center;
+	border: 2px solid transparent;
+	font-family: Verdana, sans-serif;
+}
+
+.button2:hover{
+	border: 1px solid white;
+	color: white;
+}
+
+
 @media screen and (min-width: 768px) {
 	.forsidetekst {
 		position: absolute;
