@@ -110,7 +110,7 @@ height: 100%;
 	font-family: Verdana, serif;
 	text-shadow: black .1rem .1rem .8rem;
 	font-size: 10px;
-	top: 2rem;
+	top: 1.5rem;
 	left: 50%;
 	transform: translate(-50%, -50%)
 
@@ -130,14 +130,13 @@ height: 100%;
 	transform: translate(-50%, -50%);
 }
 .btn1 {
-	font-size: 10px;
+	font-size: 5px;
 	font-family: Verdana, sans-serif;
 	color: white;
 }
 
-
 .btn2{
-	font-size: 10px;
+	font-size: 5px;
 	font-family: Verdana, sans-serif;
 	color: white;
 }
@@ -159,6 +158,8 @@ height: 100%;
 	text-align: center;
 	border: 2px solid transparent;
 	font-family: Verdana, sans-serif;
+	box-shadow: #080E27 .1rem .1rem .2rem;
+
 }
 
 .button2:hover{
@@ -166,6 +167,35 @@ height: 100%;
 	color: white;
 }
 
+.footeroverskrift {
+	color: #861A21;
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+
+
+}
+.footertext {
+	color: #080E27;
+	font-family: Verdana, sans-serif;
+	font-size: 13px;
+}
+
+.footer {
+	border-bottom: #080E27 1px dotted;
+}
+
+@media screen and (min-width: 400px) {
+	.forsidetekst{
+		font-size: 15px;
+		top: 2rem;
+	}
+	.btn1 {
+		font-size: 15px;
+	}
+
+
+}
 
 @media screen and (min-width: 768px) {
 	.forsidetekst {
@@ -188,7 +218,6 @@ height: 100%;
 		font-family: Verdana, sans-serif;
 		color: white;
 	}
-
 
 
 }
