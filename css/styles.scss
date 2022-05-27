@@ -94,6 +94,12 @@ height: 100%;
 }
 .reservation {
 	color: #861A21;
+	font-family: Verdana, sans-serif;
+}
+
+.form {
+	   font-family: Verdana, sans-serif;
+		color: white;
 }
 
 .dato {
@@ -203,9 +209,12 @@ height: 100%;
 
 .comment {
 	font-family: Verdana, sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 }
 
+.booking {
+	box-shadow: gray .2rem .6rem .6rem;
+}
 @media screen and (min-width: 400px) {
 	.forsidetekst{
 		font-size: 15px;
