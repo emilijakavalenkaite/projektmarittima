@@ -142,96 +142,153 @@
 </div>
 
 <!--Book bord-->
-<div class="container p-5 col-12 col-lg-6 d-flex">
-    <div class="row booking">
-        <div class=" bg-primary text-center">
-            <div class="reservation p-3 mt-5"><h2>Reservér bord</h2></div>
+
+<div class="container d-flex flex-column p-lg-5">
+    <div class="row">
+        <div class="col-12 col-lg-6 bg-primary bordercolor">
+            <div class=" bg-primary text-center ">
+                <div class="reservation p-3 mt-5"><h2>Reservér bord</h2></div>
             </div>
 
-        <div class=" text-center bg-primary">
-            <div class="form p-1"><h5>Navn</h5></div>
-            <div class="container d-flex justify-content-center p-3">
-                <label>
-                    <input type="text" placeholder="Navn" name="mail" required>
-                </label>
+            <div class=" text-center bg-primary">
+                <div class="form p-1"><h5>Navn</h5></div>
+                <div class="container d-flex justify-content-center p-3">
+                    <label>
+                        <input type="text" placeholder="Navn" name="mail" required>
+                    </label>
+                </div>
             </div>
-        </div>
-        <div class=" text-center bg-primary">
-            <div class="form p-1"><h5>Efternavn</h5></div>
-            <div class="container d-flex justify-content-center p-3">
-                <label>
-                    <input type="text" placeholder="Efternavn" name="mail" required>
-                </label>
+            <div class=" text-center bg-primary">
+                <div class="form p-1"><h5>Efternavn</h5></div>
+                <div class="container d-flex justify-content-center p-3">
+                    <label>
+                        <input type="text" placeholder="Efternavn" name="mail" required>
+                    </label>
+                </div>
             </div>
-        </div>
-        <div class=" text-center bg-primary">
-            <div class="form p-1"><h5>E-mail</h5></div>
-            <div class="container d-flex justify-content-center p-3">
-                <label>
-                    <input type="text" placeholder="E-mail" name="mail" required>
-                </label>
+            <div class=" text-center bg-primary">
+                <div class="form p-1"><h5>E-mail</h5></div>
+                <div class="container d-flex justify-content-center p-3">
+                    <label>
+                        <input type="text" placeholder="E-mail" name="mail" required>
+                    </label>
+                </div>
             </div>
-        </div>
-        <div class=" text-center bg-primary">
-            <div class="form p-1"><h5>Tel. nr.</h5></div>
-            <div class="container d-flex justify-content-center p-3">
-                <label>
-                    <input type="text" placeholder="Tel. nr." name="mail" required>
-                </label>
+            <div class=" text-center bg-primary">
+                <div class="form p-1"><h5>Tel. nr.</h5></div>
+                <div class="container d-flex justify-content-center p-3">
+                    <label>
+                        <input type="text" placeholder="Tel. nr." name="mail" required>
+                    </label>
+                </div>
             </div>
-        </div>
-        <div class=" text-center bg-primary">
-            <div class="form p-1"><h5>Dato</h5></div>
-            <div class="container d-flex justify-content-center p-3">
-                <label for="dato"></label>
+            <div class=" text-center bg-primary">
+                <div class="form p-1"><h5>Dato</h5></div>
+                <div class="container d-flex justify-content-center p-3">
+                    <label for="dato"></label>
 
-                <input type="date" id="dato" name="borddato"
-                       value="2022-06-01"
-                       min="2022-06-01" max="2023-12-31">
+                    <input type="date" id="dato" name="borddato"
+                           value="2022-06-01"
+                           min="2022-06-01" max="2023-12-31">
 
+                </div>
+            </div>
+            <div class=" text-center bg-primary">
+                <div class="form p-1"><h5>Tid</h5></div>
+                <div class="container d-flex justify-content-center p-3">
+                    <label for="tid"></label>
+
+                    <input type="time" id="tid" name="tid"
+                           value="18:00"
+                           min="09:00" max="00:00" required>
+                </div>
+            </div>
+            <div class=" text-center bg-primary">
+                <div class="form p-1"><h5>Pers.</h5></div>
+                <div class="container d-flex justify-content-center p-3 mb-5">
+                    <label for="pers">
+                    <input type="number" list="pers" min="1" step="1">
+                    </label>
+                    <datalist id="pers">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                        <option value="11">
+                        <option value="12">
+                        <option value="13">
+                        <option value="14">
+                        <option value="15">
+                        <option value="16">
+                        <option value="17">
+                        <option value="18">
+                        <option value="19">
+                        <option value="20">
+                    </datalist>
+                </div>
             </div>
         </div>
-        <div class=" text-center bg-primary">
-            <div class="form p-1"><h5>Tid</h5></div>
-            <div class="container d-flex justify-content-center p-3">
-                <label for="tid"></label>
 
-                <input type="time" id="tid" name="tid"
-                       value="18:00"
-                       min="09:00" max="00:00" required>
+<!--Anden kolonne-->
+        <div class="col-12 col-lg-6 bg-primary bordercolor ">
+            <div class="bg-primary text-center">
+                <div class="reservation p-3 mt-5"><h2>Åbningstider</h2></div>
+            </div>
+
+            <div class=" text-center bg-primary p-3">
+                <div class="form p-1"><h5>Mandag</h5></div>
+                <div class="tider d-flex justify-content-center p-1">
+                   <p>Lukket</p>
+                </div>
+
+                <div class=" text-center bg-primary p-3">
+                    <div class="form p-1"><h5>Tirsdag</h5></div>
+                    <div class="tider d-flex justify-content-center p-1">
+                        <p>15.00-22.00</p>
+                    </div>
+                </div>
+
+                <div class=" text-center bg-primary p-3">
+                    <div class="form p-1"><h5>Onsdag</h5></div>
+                    <div class="tider d-flex justify-content-center p-1">
+                        <p>15.00-22.00</p>
+                    </div>
+                </div>
+
+                <div class=" text-center bg-primary p-3">
+                    <div class="form p-1"><h5>Torsdag</h5></div>
+                    <div class="tider d-flex justify-content-center p-1">
+                        <p>15.00-22.00</p>
+                    </div>
+                </div>
+
+                <div class=" text-center bg-primary p-3">
+                    <div class="form p-1"><h5>Fredag</h5></div>
+                    <div class="tider d-flex justify-content-center p-1">
+                        <p>18.00-02.30</p>
+                    </div>
+                </div>
+                <div class=" text-center bg-primary p-3">
+                    <div class="form p-1"><h5>Lørdag</h5></div>
+                    <div class="tider d-flex justify-content-center p-1">
+                        <p>15.00-22.00</p>
+                    </div>
+                </div>
+                <div class=" text-center bg-primary pt-3 pb-1">
+                    <div class="form p-1"><h5>Søndag</h5></div>
+                    <div class="tider d-flex justify-content-center p-1">
+                        <p>09.00-15.00</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class=" text-center bg-primary">
-            <div class="form p-1"><h5>Pers.</h5></div>
-            <div class="container d-flex justify-content-center p-3 mb-5">
-                <input type="number" list="quantities" min="1" step="1">
-                <datalist id="quantities">
-                    <option value="1">
-                    <option value="2">
-                    <option value="3">
-                    <option value="4">
-                    <option value="6">
-                    <option value="7">
-                    <option value="8">
-                    <option value="9">
-                    <option value="10">
-                    <option value="11">
-                    <option value="12">
-                    <option value="13">
-                    <option value="14">
-                    <option value="15">
-                    <option value="16">
-                    <option value="17">
-                    <option value="18">
-                    <option value="19">
-                    <option value="20">
-                </datalist>
-            </div>
-        </div>
-        </div>
-
     </div>
-    </div>
+</div>
 
 
 <!--Stjerner-->
@@ -310,7 +367,6 @@
 
     </div>
 </div>
-
 
 
 <!--Nyhedsbrev-->
