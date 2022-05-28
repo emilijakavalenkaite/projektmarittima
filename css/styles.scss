@@ -36,6 +36,7 @@ img {
 	color: white;
 	font-size: 40px;
 	font-weight: bolder;
+	font-family: Verdana, sans-serif;
 }
 
 
@@ -226,7 +227,9 @@ height: 100%;
 	border: white solid 3px;
 }
 
-
+.verdana {
+	font-family: Verdana, sans-serif;
+}
 @media screen and (min-width: 400px) {
 	.forsidetekst{
 		font-size: 15px;
