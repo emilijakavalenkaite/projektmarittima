@@ -1,318 +1,323 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul, ol {
-	margin: 2px 10px 2px 10px;
-	padding: 0;
-	list-style-position: inside;
+  margin: 2px 10px 2px 10px;
+  padding: 0;
+  list-style-position: inside;
 }
 
 li {
-	margin: 0;
+  margin: 0;
 }
 
 p {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .teksth {
-	color: white;
-	font-size: 35px;
-	font-weight: bolder;
-	font-family: Verdana, sans-serif;
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: Verdana, sans-serif;
 }
 
-.teksthvid{
-	font-family: Verdana, sans-serif;
-	font-size: 25px;
-	color: white;
+.teksthvid {
+  font-family: Verdana, sans-serif;
+  font-size: 25px;
+  color: white;
 }
 
 
 .logobillede {
-	width: 100px;
+  width: 100px;
 
 }
 
 .bold {
-	font-weight: bolder;
+  font-weight: bolder;
 }
 
 .navbar a {
-	text-decoration: none;
-	color: #080E27;
-	font-family: Helvetica, sans-serif;
-	font-weight: bold;
+  text-decoration: none;
+  color: #080E27;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
 
 }
 
 .fa-barsr {
-	color: #080E27;
+  color: #080E27;
 }
-
-//Forside
 
 .videoZerina {
-position: relative;
-object-fit: cover;
-width: 100%;
-height: 100%;
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 
 }
+
 .Velkommen {
-	font-family: Verdana, sans-serif;
-	font-weight: bold;
-	font-size: 35px;
-	text-shadow: gray .1rem .1rem .2rem;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: gray .1rem .1rem .2rem;
 }
+
 .tekstunder {
-	font-family: Verdana, serif;
-	font-size: 15px;
-	line-height: 2rem;
+  font-family: Verdana, serif;
+  font-size: 15px;
+  line-height: 2rem;
 
 }
 
 
 .selskabslokaler {
-	font-family: Verdana, sans-serif;
-	font-weight: bold;
-	font-size: 30px;
-	text-shadow: gray .1rem .1rem .2rem;
-
-
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: gray .1rem .1rem .2rem;
 
 
 }
+
 .reservation {
-	color: #861A21;
-	font-family: Verdana, sans-serif;
+  color: #861A21;
+  font-family: Verdana, sans-serif;
 }
 
 .form {
-	   font-family: Verdana, sans-serif;
-		color: white;
+  font-family: Verdana, sans-serif;
+  color: white;
 }
 
 .dato {
-	color: white;
+  color: white;
 }
 
 .forside {
-	position: relative;
+  position: relative;
 }
 
 .forsidetekst {
-	position: absolute;
-	color: white;
-	font-family: Verdana, serif;
-	text-shadow: black .1rem .1rem .8rem;
-	font-size: 10px;
-	top: 1.5rem;
-	left: 50%;
-	transform: translate(-50%, -50%)
+  position: absolute;
+  color: white;
+  font-family: Verdana, serif;
+  text-shadow: black .1rem .1rem .8rem;
+  font-size: 10px;
+  top: 1.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%)
 
 }
 
 .firstvideo {
-	position: relative;
-	object-fit: cover;
-	filter: brightness(35%);
+  position: relative;
+  object-fit: cover;
+  filter: brightness(35%);
 
 }
 
 .button {
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 .btn1 {
-	font-size: 5px;
-	font-family: Verdana, sans-serif;
-	color: white;
+  font-size: 5px;
+  font-family: Verdana, sans-serif;
+  color: white;
 }
 
-.btn2{
-	font-size: 5px;
-	font-family: Verdana, sans-serif;
-	color: white;
+.btn2 {
+  font-size: 5px;
+  font-family: Verdana, sans-serif;
+  color: white;
 }
 
-.tilmedtekst{
-	color: white;
+.tilmedtekst {
+  color: white;
 }
 
 .emailtekst {
-	color: white;
+  color: white;
 }
-.button2{
-	color: white;
-	text-decoration: none;
-	border-radius: 5px;
-	display: inline-block;
-	padding: 10px;
-	background: #fff;
-	text-align: center;
-	border: 2px solid transparent;
-	font-family: Verdana, sans-serif;
-	box-shadow: #080E27 .1rem .1rem .2rem;
+
+.button2 {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  background: #fff;
+  text-align: center;
+  border: 2px solid transparent;
+  font-family: Verdana, sans-serif;
+  box-shadow: #080E27 .1rem .1rem .2rem;
 
 }
 
-.button2:hover{
-	border: 1px solid white;
-	color: white;
+.button2:hover {
+  border: 1px solid white;
+  color: white;
 }
 
 .footeroverskrift {
-	color: #861A21;
-	font-family: Verdana, sans-serif;
-	font-weight: bold;
-	font-size: 20px;
+  color: #861A21;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 
 
 }
+
 .footertext {
-	color: #080E27;
-	font-family: Verdana, sans-serif;
-	font-size: 13px;
+  color: #080E27;
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
 
 }
 
 .footer {
-	border-bottom: #080E27 1px dotted;
+  border-bottom: #080E27 1px dotted;
 }
 
 .stjerner {
-	font-size: 30px;
-	font-family: Verdana, sans-serif;
-	font-weight: bolder;
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+  font-weight: bolder;
 }
 
 .stjernefoto {
-	width: 8%;
+  width: 8%;
 }
 
 .starbox {
-	border: solid 1px;
-	box-shadow: grey .1rem .1rem .2rem;
-	
+  border: solid 1px;
+  box-shadow: grey .1rem .1rem .2rem;
+
 }
 
 .comment {
-	font-family: Verdana, sans-serif;
-	font-size: 15px;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
 }
 
 .booking {
-	box-shadow: gray .2rem .6rem .6rem;
+  box-shadow: gray .2rem .6rem .6rem;
 }
 
 .tider {
-	color: white;
-	font-family: Verdana, sans-serif;
-	font-size: 15px;
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
 }
 
 .bordercolor {
-	border: white solid 3px;
+  border: white solid 3px;
 }
 
 .verdana {
-	font-family: Verdana, sans-serif;
+  font-family: Verdana, sans-serif;
 }
+
 .kordtal {
-	color: black;
+  color: black;
 }
+
 .blueboxshadow {
-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-
+ //Styling over 400px
 @media screen and (min-width: 400px) {
-	.forsidetekst{
-		font-size: 15px;
-		top: 2rem;
-	}
-	.btn1 {
-		font-size: 15px;
-	}
+  .forsidetekst {
+    font-size: 15px;
+    top: 3rem;
+    
+  }
+  .btn1 {
+    font-size: 15px;
+  }
+
+//Styling over 768px
+  @media screen and (min-width: 768px) {
+    .forsidetekst {
+      position: absolute;
+      color: white;
+      font-family: Verdana, serif;
+      text-shadow: black .1rem .1rem .8rem;
+      font-size: 20px;
+      top: 5rem;
+      left: 50%;
+      transform: translate(-50%, -50%)
+
+    }
+
+    .btn1 {
+      font-size: 20px;
+    }
+    .btn2 {
+      font-size: 15px;
+      font-family: Verdana, sans-serif;
+      color: white;
+    }
+    .omtekst {
+      font-size: 18px;
+      line-height: 2rem;
+    }
 
 
+  }
+
+  //Styling over 1200
+  @media screen and (min-width: 1200px) {
+    .forsidetekst {
+      position: absolute;
+      color: white;
+      font-family: Verdana, serif;
+      text-shadow: black .1rem .1rem .8rem;
+      font-size: 40px;
+      top: 220px;
+      left: 50%;
+      transform: translate(-50%, -50%)
+
+    }
+    .button {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .btn1 {
+      font-size: 25px;
+    }
+    .btn2 {
+      font-size: 20px;
+      font-family: Verdana, sans-serif;
+      color: white;
+    }
+  }
 }
 
-@media screen and (min-width: 768px) {
-	.forsidetekst {
-		position: absolute;
-		color: white;
-		font-family: Verdana, serif;
-		text-shadow: black .1rem .1rem .8rem;
-		font-size: 20px;
-		top: 5rem;
-		left: 50%;
-		transform: translate(-50%, -50%)
 
-	}
-
-	.btn1 {
-		font-size: 20px;
-	}
-	.btn2{
-		font-size: 15px;
-		font-family: Verdana, sans-serif;
-		color: white;
-	}
-	.omtekst {
-   		font-size: 18px;
-   		line-height: 2rem;
-	}
-	
-
-}
-
-
-@media screen and (min-width: 1200px) {
-	.forsidetekst {
-		position: absolute;
-		color: white;
-		font-family: Verdana, serif;
-		text-shadow: black .1rem .1rem .8rem;
-		font-size: 40px;
-		top: 220px;
-		left: 50%;
-		transform: translate(-50%, -50%)
-
-	}
-	.button {
-		position: absolute;
-		top: 60%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-	.btn1 {
-		font-size: 25px;
-	}
-	.btn2{
-		font-size: 20px;
-		font-family: Verdana, sans-serif;
-		color: white;
-	}
-
-}
